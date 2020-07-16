@@ -16,6 +16,13 @@ body {
   }
 }
 
+.clean-transition * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+}
 
 .container {
   max-width: 1512px;
